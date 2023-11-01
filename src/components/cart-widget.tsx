@@ -3,7 +3,7 @@
 import { useCart } from '@/contexts/cart-context'
 import { ShoppingBag } from 'lucide-react'
 
-export default function CartWidget() {
+export function CartWidget() {
   const { items } = useCart()
 
   return (
